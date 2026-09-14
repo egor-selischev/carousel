@@ -2,7 +2,7 @@
 
 Тестовое задание: SPA с имитацией аутентификации и каруселью слайдов (добавление, удаление, отметка) с сохранением в `localStorage`.
 
-**Демо:** https://&lt;username&gt;.github.io/&lt;repo&gt;/
+**Демо:** https://egor-selischev.github.io/carousel/
 
 **Теория:** [THEORY.md](./THEORY.md)
 
@@ -47,7 +47,7 @@ npm run dev        # http://localhost:5173
 | `npm run lint:fix`  | ESLint с автоисправлением                               |
 | `npm run format`    | Prettier                                                |
 
-Чтобы проверить сборку в том виде, в каком она работает на GitHub Pages (под подпутём `/<repo>/`):
+Чтобы проверить сборку в том виде, в каком она работает на GitHub Pages (под подпутём `/carousel/`):
 
 ```bash
 VITE_BASE_PATH=/carousel/ npm run build && VITE_BASE_PATH=/carousel/ npx vite preview
